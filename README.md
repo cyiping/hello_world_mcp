@@ -6,13 +6,13 @@
 
 ```mermaid
 graph LR
-    A[🧑‍💻 你 (使用者)] -->|1. 輸入指令| B(🤖 Google Antigravity IDE);
-    B -->|2. AI 判斷需要工具| C{🌉 MCP Bridge};
-    C -- "3. 呼叫指令 (透過 JSON 配置)" --> D[📦 你的 Python 環境 (uv)];
-    D -->|4. 執行腳本| E(🐍 server.py);
+    A["🧑‍💻 你 (使用者)"] -->|"1. 輸入指令"| B("🤖 Google Antigravity IDE");
+    B -->|"2. AI 判斷需要工具"| C{"🌉 MCP Bridge"};
+    C -- "3. 呼叫指令 (透過 JSON 配置)" --> D["📦 你的 Python 環境 (uv)"];
+    D -->|"4. 執行腳本"| E("🐍 server.py");
     E -- "5. 回傳計算結果 (例如: 22.49)" --> C;
-    C -->|6. 將資料交回| B;
-    B -->|7. 生成最終回答| A;
+    C -->|"6. 將資料交回"| B;
+    B -->|"7. 生成最終回答"| A;
 
     style B fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b
     style C fill:#fff3e0,stroke:#f57c00,stroke-width:4px,stroke-dasharray: 5 5
