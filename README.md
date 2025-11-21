@@ -4,7 +4,7 @@
 
 本專案展示了如何使用 Python 的 `mcp` SDK (FastMCP) 建立一個簡單的伺服器，並將其連接到支援 MCP 的 AI 客戶端（如 **Google Antigravity**、**Claude Desktop** 或 **Cursor**），賦予 AI 計算 BMI 的能力。
 
-![Concept](pic\concept.jpg)
+![Concept](.\pic\concept.jpg)
 
 ```mermaid
 graph LR
